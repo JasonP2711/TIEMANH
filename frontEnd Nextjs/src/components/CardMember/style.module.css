@@ -1,0 +1,41 @@
+.item__card{
+    height: 380px;
+    margin: 10px 0.5%;
+    position: relative;
+    background: #242424;
+}
+
+.item__card:hover{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 6px 10px rgba(0, 0, 0, 0.1);
+  }
+
+.name__title{
+    font-size: 30px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.name__position{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+.social__icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social__icon i{
+    margin-left: 3%;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 800px) {
+    .item__card{
+        height: 380px;
+        margin: 10px 0.5%;
+    }
+    
+}

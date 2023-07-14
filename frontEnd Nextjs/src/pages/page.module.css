@@ -1,0 +1,416 @@
+.title{
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    padding-top: 100px;
+    justify-content: center;
+  
+  }
+  
+  .container{
+    width: 100%;
+    position: relative;
+    background: #3E3E3F;
+    /* z-index: -3; */
+  }
+  
+  .title1{
+    margin-left: 20px;
+    color: white;
+    font-size: 8vh;
+    z-index: 5;
+  }
+  
+  .bg_1{
+    position: absolute;
+    right: 0%;
+    top: 20px;
+    /* z-index: -2; */
+  }
+  
+  .obj__img{
+    height: 300px;
+    width: 500px;
+    z-index: 10;
+  }
+  
+  .obj__img2{
+    z-index: -10;
+    position: absolute;
+    left: -120px;
+    top: 1620px;
+    height: 300px;
+    width: 500px;
+    transform: rotate(270deg);
+  }
+  /* tạo spalash(ảnh lồng nhau) */
+  /* .splash{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    margin-left: 50px;
+    margin-top: 100px;
+    background: url("./best-camera-for-entry-level-4.jpeg");
+    background-size: cover;
+    height: 150px;
+    width: 220px;
+    position: relative;
+    border-radius: 60%;
+    
+  }
+  
+  .splash:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("./splash.jpg");
+    background-size: 100%;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: screen;
+  border-radius: 60%;
+  } */
+  
+  .img{
+  position: absolute;
+  top: 30px;
+  left: 80%;
+    background: url("./kisspng-photographic-film-drawing-camera-illustration-imag-nouvelle-page-5c0004e71cc182.3087351815435051271178\ \(1\).png");
+    background-size: 100%;
+    width: 300px;
+    height: 200px;
+    animation: moveUpDown 2s ease-in-out infinite alternate;
+    z-index: 5;
+  }
+  
+  .slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-top: 100px;
+    height: 300px;
+    /* z-index: 9999; */
+  }
+  .cloud{
+    background: url("./—Pngtree—cloud\ weather\ climate_8186751.png");
+    background-size: 100%;
+    height: 100px;
+    width: 200px;
+    color: yellow;
+  }
+  
+  .title__2{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 28px;
+  }
+  
+  .card__member{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin: 10px 150px; */
+  }
+  
+  
+  
+  .title__team{
+    display: flex;
+    justify-content: center;
+    /* font-size: larger; */
+    color: aliceblue;
+  }
+  
+  .element{
+    height: 380px;
+    width: 100%;
+    background: #4e4e4e;
+    margin-top: 50px;
+  }
+  
+  .list__element{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+  }
+  ul.list__element>li{
+    /* border: 1px solid; */
+    margin-left: 1%;
+    width: 23%;
+    color: #070707;
+  }
+  
+  ul.list__element>li>span{
+   word-wrap: break-word;
+  }
+  
+  .icon__style{
+    font-size: 50px;
+    margin-right: 10px;
+  }
+  
+  .main__content1{
+    display: flex;
+    padding: 50px 80px;
+    position: relative;
+    height: 400px;
+  }
+  
+  .content__1{
+    /* background:#94846d ; */
+    width: 450px;
+    position: absolute;
+  top: 50px;
+  left: 350px;
+  color: #a3919c;
+  }
+  
+  .background__Img{
+  /* margin-left: 135px; */
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  border: 1px solid;
+  width: 540px;
+  height: 300px;
+  border-radius: 317px 181px 238px 155px;
+  background: #94846d;
+  transform: rotate(5deg);
+  display: flex;
+  }
+  
+  
+  .main__content2{
+    display: flex;
+    padding: 50px 80px;
+    position: relative;
+    height: 380px;
+    background: #443f37;
+  }
+  
+  .content__2{
+    /* background:#94846d ; */
+    width: 450px;
+    position: absolute;
+  top: 50px;
+  right: 280px;
+  color: #a3919c;
+  }
+  .background__Img2{
+    position: absolute;
+  top: 30px;
+  left: 160px;
+  border: 1px solid;
+  width: 400px;
+  height: 300px;
+  border-radius: 317px 282px 238px 155px;
+  background: #c2a781;
+  transform: rotate(-5deg);
+  display: flex;
+  }
+  
+  .main__content3{
+    display: flex;
+    padding: 50px 80px;
+    position: relative;
+    height: 360px;
+  
+  }
+  
+  .content__3{
+    /* background:#94846d ; */
+    width: 450px;
+    position: absolute;
+  top: 40px;
+  left: 250px;
+  color: #a3919c;
+  }
+  .background__Img3{
+    position: absolute;
+  border: 1px solid;
+  width: 380px;
+  height: 300px;
+  border-radius: 50%;
+  background: #94846d;
+  transform: rotate(-2deg);
+  top: 35px;
+  right: 180px;
+  }
+  
+  
+  .main__content4{
+    display: flex;
+    padding: 50px 80px;
+    position: relative;
+    height: 360px;
+    background: #443f37;
+  }
+  
+  .content__4{
+    /* background:#94846d ; */
+    width: 450px;
+    position: absolute;
+  top: 50px;
+  right: 280px;
+  color: #a3919c;
+  }
+  .background__Img4{
+    position: absolute;
+  top: 50px;
+  left: 160px;
+  border: 1px solid;
+  width: 430px;
+  height: 280px;
+  border-radius: 500px 500px 500px 50px;
+  background: #c2a781;
+  transform: rotate(-3deg);
+  display: flex;
+  }
+  
+  
+  
+  @keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(30px);
+    }
+  
+  }
+  
+  
+  
+  @media screen and (max-width: 800px) {
+    .title{
+      color: white;
+      display: flex;
+      margin-top: 15vh;
+      justify-content: center;
+    }
+    
+    .container{
+      position: relative;
+    }
+    
+    .title1{
+      margin-left: 20px;
+      color: white;
+      font-size: 3vh;
+    }
+    
+    .bg_1{
+      position: absolute;
+      right: 0%;
+      top: -125px;
+      z-index: -2;
+      width: 200px;
+      height: 200px;
+    }
+    
+    .obj__img{
+      height: 190px;
+      width: 200px;
+    }
+  
+    /* tạo spalash(ảnh lồng nhau) */
+    /* .splash{
+      position: absolute;
+      top: 0px;
+      left: 20px;
+      margin-left: 50px;
+      margin-top: 100px;
+      background: url("./best-camera-for-entry-level-4.jpeg");
+      background-size: cover;
+      height: 150px;
+      width: 220px;
+      position: relative;
+      border-radius: 60%;
+      
+    }
+    
+    .splash:before{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: url("./splash.jpg");
+      background-size: 100%;
+      background-position: center;
+      width: 100%;
+      height: 100%;
+      mix-blend-mode: screen;
+    border-radius: 60%;
+    } */
+    
+    .img{
+    position: absolute;
+    top: -150px;
+    left: 50%;
+      background: url("./kisspng-photographic-film-drawing-camera-illustration-imag-nouvelle-page-5c0004e71cc182.3087351815435051271178\ \(1\).png");
+      background-size: 100%;
+      width: 180px;
+      height: 130px;
+      animation: moveUpDown 2s ease-in-out infinite alternate;
+      z-index: -2;
+    }
+    
+    .slider{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+    }
+  
+    .element{
+      height: auto;
+      width: 100%;
+      background: #4e4e4e;
+      margin-top: 50px;
+    }
+    
+    .list__element{
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      padding-top: 3%;
+    }
+    ul.list__element>li{
+      /* border: 1px solid; */
+      margin-left: 1%;
+      width: 80%;
+      color: #070707;
+    }
+    
+    ul.list__element>li>span{
+     word-wrap: break-word;
+    }
+    
+    .icon__style{
+      font-size: 70px;
+      margin-right: 5px;
+    }
+    
+    .main__content1{
+      /* display: flex;
+      flex-direction: column; */
+      display: none;
+    }
+    
+    @keyframes moveUpDown {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(30px);
+      }
+    }
+  }
